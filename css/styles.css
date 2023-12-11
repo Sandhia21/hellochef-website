@@ -456,18 +456,102 @@ body{
   justify-content: space-evenly;
   align-items: center;
 }
-
-.sub-section-6{
-  border: 2px solid black;
-  height: 12rem;
-  overflow: hidden;
+.section-6{
+  margin:0;
+  margin-top: 50px;
 }
 
+.sub-section-6{
+  /* border: 2px solid black; */
+  height: 15rem;
+  overflow: hidden;
+  padding: 20px 30px;
+}
+.sub-section-6 h3{
+  font-weight: bold;
+  color: #484848;
+}
+
+.sub-section-6 p{
+  color: #9A9EA3;
+  padding-left: 10px;
+  cursor: pointer;
+}
 #blog-section{
+  display: flex;
+  flex-direction: column;
   align-items: flex-end;
+  text-align: right;
   
 }
 
-#blog-section h3, #blog-section span{
+#blog-section #display-b, #blog-section span, #blog-section img{
   display: inline-block;
+}
+
+.section-7 #styled-same{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92.5%;
+  margin: 20px auto;
+}
+
+
+#google-logo{
+  height: 20px;
+}
+
+.bx.bxs-heart{
+  color: #E42A12;
+  font-size: 1.5rem;
+}
+
+.footer{
+  font-weight: bold;
+  padding: 50px;
+}
+
+.footer a{
+  color: #E42A12;
+}
+
+.social-icons{
+  text-align:right;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  color: #808080;
+}
+
+.social-icons i{
+  margin-right: 20px;
+}
+
+#follow-us{
+  margin-right: 20px;
+}
+
+#p-google{
+  margin: 0;
+}
+
+.rating-icons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  height: 20px;
+}
+
+.heading-style{
+  font-weight: bold;
+  color: #000;
+}
+
+.brand-color{
+  color: #E42A12;
+  font-weight: bold;
+  font-size: 2.3rem;
 }
